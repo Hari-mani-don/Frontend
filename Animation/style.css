@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255,255,255);
+    padding: 10px;
+    animation: header 2s ease-in-out;
+}
+@keyframes header {
+    0%{
+        transform: translateY(-100%);
+    }
+}
+nav li{
+    color: rgb(255,255,255);
+    display: inline-block;
+    padding:15px;
+    font-size: 20px;
+    font-weight: 600px;
+}
+header h1{
+    font-size: 2rem;
+    padding: 10px;
+}
+.main{
+    width: 100%;
+    display: flex;   
+    overflow: hidden;
+    
+}
+.content{
+    width: 50%;
+    color:rgb(255,255,255);
+    margin-top: 8%;
+    margin-left: 5%;
+    animation: content 2s ease-in-out;
+    overflow: hidden;
+}
+@keyframes content {
+    0%{
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+}
+.content h1{
+    font-size: 80px;
+    margin-bottom: 2%;
+    letter-spacing: 8px;
+}
+.content h3{
+    font-size: 25px;
+    margin-bottom: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.content span{
+    color: rgb(255,255,0);
+}
+.content p{
+    font-size: 20px;
+    margin-bottom: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.content button{
+    padding: 15px 30px;
+    background: transparent;
+    color: rgb(255,255,255);
+    font-size: 20px;
+    border-radius: 10px;
+}
+.content button:hover{
+    background: rgb(255,0,0);
+}
+.image{
+    width: 50%;
+    z-index: -1;
+}
+
+.image img{
+    height: 20rem;
+    margin-top: 10%;
+    animation: car 5s ease-in-out;
+}
+@keyframes car {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-220%);
+    }
+}
+ @media  screen and (max-width:1200px) {
+    .content{
+        text-align: center;
+        width: 100%;
+    }
+    .image{
+        width: 100%;
+        position: absolute;
+        bottom: -10%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .image img{
+         height: 18rem;
+    }
+} 
+@media  screen and (max-width:576px) {
+    .content{
+        text-align: center;
+        width: 100%;
+       
+    }
+    .content h1{
+        margin-bottom: 5%;
+    }
+    .content h3{
+        margin-bottom: 5%;
+    }  
+    .content p{
+        margin-bottom: 5%;
+    }
+    .image{
+        width: 100%;
+        position: absolute;
+        bottom: -10%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .image img{
+         height: 20rem;
+         width: 27rem;
+    }
+}
+
+
