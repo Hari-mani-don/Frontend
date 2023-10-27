@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100vh;
+    background: rgb(255,0,255,.09);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    height: 20em;
+    width: 15em;
+    background-color: rgb(255,255,255);
+}
+.card1{
+    background-image: url(/product-preview-card-component-main/images/image-product-desktop.jpg);
+    background-size: cover;
+    border-radius: 10px 0px 0px 10px;
+}
+.card2{
+    padding:30px 20px ;
+    border-radius: 0px 10px 10px 0px;
+}
+.perfume{
+    color: gray;
+    letter-spacing: 0.3em;
+    font-size: 12px;
+}
+.card2 h1{
+    margin: 10px 0px;
+    font-size: 30px;
+    line-height: 0.9em;
+}
+.para{
+    margin:15px 0px 0px 0px;
+    font-size: 12px;
+}
+.card2 .doll{
+    font-size: 20px;
+    color: rgb(43, 114, 43);
+}
+.sp{
+    margin-left: 25px;
+    font-size: 15px;
+    color: gray;
+    text-decoration: line-through;
+}
+.butt{
+    position: relative;
+    margin: 10px 0px 0px 15px;
+    padding: 10px 40px;
+    background: rgb(43, 114, 43);;
+    color:rgb(255,255,255);
+    border-radius: 10px;
+}
+.hari{
+    letter-spacing: 0.3em;
+}
+button:hover{
+    background-color: rgba(47, 0, 255,.3);
+    color:rgb(0,0,0);
+}
