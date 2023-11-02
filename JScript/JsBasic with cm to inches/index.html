@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <link rel="stylesheet" href="/JsBasic/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>cm to inches</h1>
+        </div>
+       <div class="input-div">
+        <input type="text" id="input"  placeholder="length in cm" >
+        <button class="button" type="submit" onclick="converter()">Convert into inches</button>
+       </div>
+       <div id="result">
+        
+       </div>
+    </div>
+    <script > 
+        function converter(){
+            let str = document.getElementById("input").value;
+            let val = str.split(" ");
+
+            // let wordCount =1;
+            // while(val < str.length){
+            //     let cha = str.charAt(val);
+            //    if(cha == '\t'|| cha == ' ' || cha =='\n' || cha == '\0'){
+            //     wordCount++;
+            //    }
+            //     val++;
+            // }
+            console.log(val);
+        }
+    </script>
+</body>
+</html>
