@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    font-family: 'League Spartan', sans-serif;  
+}
+/*container block 1 */
+
+.container{
+    /* height: 50vh; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: blue; */
+}
+.wrapper{
+    width: 80%;
+    margin-top: 4em;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    overflow: hidden;
+}
+.content{
+    width: 50%;
+    padding-right: 5em;
+}
+.title{
+    padding-right: 200px;
+    padding-bottom: 1em;
+}
+.star{
+    width: 50%;
+    
+}
+.star .item{
+    width: 80%;
+    background:  hsl(300, 24%, 96%);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.4em;
+    padding: 0.7em 1.2em;
+}
+.star .star-item1{
+    margin: 0em 0em 0.7em 1.5em;
+}
+.star .star-item2{
+    margin: 0em 0em 0.7em 3.5em;
+}
+.star .star-item3{
+    margin: 0em 0em 0.7em 5em;
+}
+
+/*container block 2 */
+
+.image-container{
+    margin-top: 4em;
+   /* height: 50vh; */
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ /* background: blue; */
+
+}
+
+.image-container2{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: red; */
+    overflow: hidden;
+}
+.image{
+    height: 273px;
+    margin: 0em 1.5em 4em 0em;
+    background-color: hsl(300, 43%, 22%);
+    padding: 2em 0.5em 2em 1.1em;
+    border-radius: 0.5em;
+}
+
+/* margin image*/
+.image2 {
+    margin-top: 2em;
+}
+ .image3 {
+    margin-top: 4em;
+}
+.image p{
+    margin-bottom: 0.5em;
+    font-size: 19px;
+}
+.img-wrape{
+    margin-bottom: 1.5em;
+    display: flex;
+    align-items: center;
+}
+.img-wrape img{
+    margin-right: 1em;
+    border-radius: 50%;
+}
+.image h4{
+    color: hsla(0, 0%, 100%,.9);
+}
+.img-wrape p{
+    margin-top: 0.2em;
+    color: hsl(303, 10%, 53%);
+}
+
+.image .para{
+    color: hsl(300, 24%, 96%);
+    
+}
